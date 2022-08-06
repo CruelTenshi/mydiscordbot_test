@@ -9,7 +9,6 @@ client.on('ready', () => {
 
 client.on('message', msg => {
         if(msg.author.bot) return;
-        console.log(msg.content);
         edit_text = msg.content.replace(/\@|\!|1|2|3|4|5|6|7|8|9|0|\?|\#|\$|\%|\^|\&|\*|\(|\)|\+|\=|\;|\:|\,|\.|\/|\\|\'|\"|\>|\<|\-|\_|\~|\`|\ㅈ|\ㄱ|\ㅛ|\ㅑ|\ㅐ|\ㅔ|\ㅁ|\ㄴ|\ㅇ|\ㄹ|\ㅎ|\ㅓ|\ㅏ|\ㅣ|\ㅋ|\ㅌ|\ㅊ|\ㅍ|\ㅠ|\ㅜ|\ㅡ|\ /g, "");
         
         for(i=0; i < bad_words.length; i++) {
