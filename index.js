@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
         for(i=0; i < bad_words.length; i++) {
-            if(msg.content.replace("/\@/g", "").replace("/\!/g", "").replace("/\?/g", "").replace("/\1/g", "").replace("/\ㄹ/g", "").replace(/ /g, '').replace("/\./g", "").replace("/\,/g", "").toLowerCase().indexOf(bad_words[i]) != -1) {
+            if(msg.content.replace(/\@/g, "").replace(/\!/g, "").replace(/\?/g, "").replace(/\1/g, "").replace(/\ㄹ/g, "").replace(/ /g, '').replace("/\./g", "").replace("/\,/g", "").toLowerCase().indexOf(bad_words[i]) != -1) {
                 msg.reply(' <@&981536449876852756> <@&981536885199503430> 욕설 사용이 의심되는 거십니다 데스 wwww');
                 console.log('욕설의 사용으로 인한 호출, '+msg.author.username+'('+msg.author+'): '+msg.content);
                 break;
