@@ -9,18 +9,19 @@ client.on('ready', () => {
 
 client.on('message', msg => {
         if(msg.author.bot) return;
-        console.log(msg.content);
+        if(msg.author.id === client.user.id) return;
+
         edit_text = msg.content.replace(/\@|\!|1|2|3|4|5|6|7|8|9|0|\?|\#|\$|\%|\^|\&|\*|\(|\)|\+|\=|\;|\:|\,|\.|\/|\\|\'|\"|\>|\<|\-|\_|\~|\`|\ㅈ|\ㄱ|\ㅛ|\ㅑ|\ㅐ|\ㅔ|\ㅁ|\ㄴ|\ㅇ|\ㄹ|\ㅎ|\ㅓ|\ㅏ|\ㅣ|\ㅋ|\ㅌ|\ㅊ|\ㅍ|\ㅠ|\ㅜ|\ㅡ|\ /g, "");
         
         for(i=0; i < bad_words.length; i++) {
             if(edit_text.toLowerCase().indexOf(bad_words[i]) != -1) {
-                msg.reply(' <@&981536449876852756> <@&981536885199503430> 욕설 사용이 의심되는 거십니다 데스 wwww');
+                msg.reply(' <@&981536449876852756> <@&981536885199503430> 이 서버에서 욕설은 금지되니까 사용하지 말아줘!');
                 console.log('욕설의 사용으로 인한 호출, '+msg.author.username+'('+msg.author+'): '+msg.content);
                 break;
             }
         }
         if(msg.content.indexOf('<@1005377197764259841>') != -1) {
-            msg.reply('반갑다는 거십니다 데스wwwww');
+            msg.reply('너도 나와 계약해서 마법소녀가 되어주겠니?');
             console.log(msg.author.username+'('+msg.author+')'+', 사용자의 직접 호출')
         }
 });
