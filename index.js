@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('message', msg => {
         for(i=0; i < bad_words.length; i++) {
             if(msg.content.toLowerCase().indexOf(bad_words[i]) != -1) {
-                msg.reply('욕설 사용이 의심되는 거십니다 데스wwww. <@&981536449876852756> <@&981536885199503430>')
+                msg.reply(' <@&981536449876852756> <@&981536885199503430> 욕설 사용이 의심되는 거십니다 데스 wwww')
                 break;
             }
         }
