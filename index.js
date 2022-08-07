@@ -44,7 +44,7 @@ client.on('ready', () => { //실행되었을 때 호출
 client.on('messageCreate', msg => { //새로운 메세지를 감지했을 때 호출 
     if(msg.author.bot) return;
     if(msg.author.id === client.user.id) return; //메세지 작성자가 자신일 때 반환
-	if (msg.quthor.id === '624790303546671104') {
+	if (msg.quthor.id == '624790303546671104') {
 		msg.reply(' <@&981536449876852756> <@&981536885199503430> 이 서버에서 욕설은 금지되니까 사용하지 말아줘!');
 		return;
 	};
