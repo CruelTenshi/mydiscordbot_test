@@ -1,15 +1,15 @@
 {
-  "dependencies": {
-    "discord.js": "^12.5.3"
-  },
   "name": "mybot",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord.js": "^13.9.2"
+  }
 }
