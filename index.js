@@ -63,7 +63,7 @@ client.on('messageCreate', msg => { //새로운 메세지를 감지했을 때 �
 client.on('interactionCreate', async interaction => { //슬래쉬 명령어가 사용되었을 때, 호출
     if(!interaction.isCommand()) return;
 	const { commandName } = interaction;
-    if (commandName === '큐베쨩') {
+    if (commandName === '원기쨩') {
 		await interaction.reply({embeds:[bot_profile]});
 	}
 });
