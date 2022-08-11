@@ -11,9 +11,9 @@ const bot_profile = new MessageEmbed()
 		.setColor('#f0808b')
 		.setTitle('관리자 큐베쨩')
 		.setURL('https://discord.com/api/oauth2/authorize?client_id=1005377197764259841&permissions=8&scope=bot%20applications.commands')
-		.setAuthor({ name: 'Made by Hajun-Jo', iconURL: 'https://i.imgur.com/TeOgBAE.png'})
+		.setAuthor({ name: 'Made by Hajun-Jo', iconURL: 'https://w.namu.la/s/dcbf94d7f9d2469c56298ee9c7f940fcd7f9eb40fd60d96e774045f23ddca050f8913861c0bcc55890a9bbfc0036257d07875fc7d5ec1d4cefebf10df23406a083e81b6e8780048f386da84dc0d58530d48e566b64c03ee5c6b7c015a68f97e6'})
 		.setDescription('서버의 운영을 돕기 위해 개발되어 여러가지 기능을 포함합니다.\n아직 개발 단계이며 차후 더많은 기능을 포함할 예정입니다.')
-		.setThumbnail('https://i.imgur.com/f6jLUAt.png')
+		.setThumbnail('https://i.imgur.com/TeOgBAE.png')
 		.addFields(
 			{ name: '최근 업데이트 내역', value: '임베드가 추가되었습니다.\n상태 변화가 추가되었습니다.\n명령어가 추가되었습니다.' },
 			{ name: '\u200B', value: '\u200B' },
@@ -21,7 +21,7 @@ const bot_profile = new MessageEmbed()
 			{ name: '기능2', value: '상태 변화', inline: true },
 			{ name: '기능3', value: '명령어 사용', inline: true },
 		)
-		.setImage('https://pbs.twimg.com/profile_images/1142600358184669184/Q3UjVJS__400x400.jpg')
+		.setImage('https://i.imgur.com/f6jLUAt.png')
 		.setTimestamp()
 		.setFooter({ text: '아직 베타 단계입니다!', iconURL: 'https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU' });
 
