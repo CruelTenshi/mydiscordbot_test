@@ -11,9 +11,9 @@ const bot_profile = new MessageEmbed()
 		.setColor('#f0808b')
 		.setTitle('관리자 큐베쨩')
 		.setURL('https://discord.com/api/oauth2/authorize?client_id=1005377197764259841&permissions=8&scope=bot%20applications.commands')
-		.setAuthor({ name: 'Made by Hajun-Jo', iconURL: 'https://w.namu.la/s/dcbf94d7f9d2469c56298ee9c7f940fcd7f9eb40fd60d96e774045f23ddca050f8913861c0bcc55890a9bbfc0036257d07875fc7d5ec1d4cefebf10df23406a083e81b6e8780048f386da84dc0d58530e747fac7320e5e40becb7c0db6d3abf8'})
+		.setAuthor({ name: 'Made by Hajun-Jo', iconURL: 'https://i.imgur.com/TeOgBAE.png'})
 		.setDescription('서버의 운영을 돕기 위해 개발되어 여러가지 기능을 포함합니다.\n아직 개발 단계이며 차후 더많은 기능을 포함할 예정입니다.')
-		.setThumbnail('https://w.namu.la/s/b19e7a2e31b255e820aab25a1ca04685f518bb55c47ef9e4c8587202f362695631f7ce862cfec8552ab1c7cf995238bf34ace924e6d76418182c5650aba7c21ebaf6e87b4425748f67b0ce6f08d0a1fb')
+		.setThumbnail('https://i.imgur.com/f6jLUAt.png')
 		.addFields(
 			{ name: '최근 업데이트 내역', value: '임베드가 추가되었습니다.\n상태 변화가 추가되었습니다.\n명령어가 추가되었습니다.' },
 			{ name: '\u200B', value: '\u200B' },
