@@ -49,7 +49,7 @@ client.on('messageCreate', msg => { //새로운 메세지를 감지했을 때 �
     //특수 문자 및 숫자 제거
     for(i=0; i < bad_words.length; i++) { //bad_words 배열의 문자가 있는지 확인
         if(edit_text.toLowerCase().indexOf(bad_words[i]) != -1) {
-            msg.reply(' <@&981536449876852756> <@&981536885199503430> 이 서버에서 욕설은 금지되니까 사용하지 말아줘!');
+            msg.reply('괘씸한 새기들. 서버 닫아.');
             console.log(`[욕설의 사용으로 인한 호출] ${msg.author.username}(${msg.author.id}): ${msg.content}`);
             break;
         }
